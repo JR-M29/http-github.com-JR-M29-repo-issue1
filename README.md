@@ -1,5 +1,10 @@
 # http-github.com-JR-M29-repo-issue1
 
+Issue 1:* Notes are not saved correctly when the title is empty
+    - Label: functional
+    - Description: When a user tries to save a note with an empty title, the note is not saved correctly.
+
+
 
 describe('saveNote() function', () => {
   it('should save a note with title and content', () => {
